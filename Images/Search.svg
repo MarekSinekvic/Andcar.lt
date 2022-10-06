@@ -1,0 +1,15 @@
+<svg viewBox="-18.76 -128.823 444.968 686.355" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="248.191" y1="-76.462" x2="248.191" y2="202.446" id="gradient-0">
+      <stop offset="0" style="stop-color: rgba(239, 239, 239, 0.88)"></stop>
+      <stop offset="1" style="stop-color: rgba(188, 188, 188, 0.88)"></stop>
+    </linearGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="248.191" cy="62.992" r="163.217" id="gradient-1" gradientTransform="matrix(0.624521, 0.72797, -0.758975, 0.65112, 140.999868, -158.698866)">
+      <stop offset="0" style="stop-color: rgba(247, 247, 247, 0);"></stop>
+      <stop offset="1" style="stop-color: rgb(234, 234, 234);"></stop>
+    </radialGradient>
+  </defs>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-width: 34px; stroke-linecap: round;" d="M -1.434 538.242 L 159.822 213.173"></path>
+  <path style="stroke: rgba(0, 0, 0, 0); fill: url(#gradient-1);" d="M 84.974 143.663 C 84.974 143.663 251.318 108.643 341.368 -76.462 L 411.408 32.35 C 411.408 32.35 273.83 28.598 137.503 202.446 L 84.974 143.663 Z"></path>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: rgba(216, 216, 216, 0); stroke-miterlimit: 0; stroke-width: 34px;" cx="238.71" cy="61.111" rx="169.355" ry="169.355"></ellipse>
+</svg>

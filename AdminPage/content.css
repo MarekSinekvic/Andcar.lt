@@ -1,0 +1,128 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0px 20px;
+}
+
+#car-name {
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(76, 56, 254);
+    font-weight: bold;
+}
+
+#car-name-editor {
+    border: none;
+    width: 500px;
+    height: 50px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(158, 56, 254);
+    text-align: center;
+    background-color: transparent;
+}
+
+.values-block-editor {
+    border: none;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color: rgb(122, 0, 0);
+    width: fit-content;
+}
+
+#car-info {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#car-description {
+    margin-top: 20px;
+}
+
+#car-images img {
+    width: 450px;
+}
+
+#car-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#images-preview {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#images-preview .arrow {
+    width: 60px;
+    height: 60px;
+    margin: 0px 20px;
+}
+
+#images-preview .arrow:last-child {
+    width: -100px;
+}
+
+#cars-mini-preview img {
+    width: 100px;
+    margin: 0px 10px;
+}
+
+#car-parameters {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    flex-wrap: wrap;
+    gap: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    font-size: 19px;
+}
+
+.left-block-names {
+    color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.selectedImage {
+    border: 2px solid rgb(131, 130, 130);
+}
+
+.right-block-names {
+    justify-self: flex-end;
+    word-wrap: break-word;
+    width: fit-content;
+    max-width: 80%;
+
+    color: black;
+}
+
+.selectedImage {
+    border: 2px solid rgb(131, 130, 130);
+}
+
+#add-car {
+    width: 120px;
+    height: 25px;
+    background-color: rgb(248, 248, 248);
+    border: 1px solid rgb(184, 184, 184);
+}

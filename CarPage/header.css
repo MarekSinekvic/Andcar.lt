@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: 'Segoe UI',
+        Tahoma,
+        Geneva,
+        Verdana,
+        sans-serif;
+
+    padding: 0px 0px;
+    width: 100%;
+}
+
+header #title {
+    font-size: 33px;
+    margin-left: 50px;
+}
+
+#navigation-board {
+    /* margin: 0px 0px 0px 90px; */
+    display: flex;
+    /* align-items: center; */
+    text-align: center;
+}
+
+#navigation-board>span {
+    border-right: 1px solid rgb(202, 202, 202);
+    font-size: 22px;
+    padding: 16px 30px;
+    width: 150px;
+}
+
+#navigation-board>span:hover {
+    background-color: rgb(202, 202, 202);
+}
+
+#navigation-board>span:last-child {
+    border: none;
+}
+
+
+#admin-panel {
+    justify-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+#admin-panel img {
+    width: 30px;
+    padding: 2px;
+}
+
+#users-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+}
+
+.user {
+    /* height: 60px; */
+    margin: 4px 6px;
+    padding: 2px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+}
+
+.user #last-user-message {
+    max-width: 220px;
+    max-height: 80px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.user #avatar {
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    border: 1px dashed black;
+    /* background-color: black; */
+}
+
+.user #user-name {
+    font-size: 19px;
+    color: rgb(76, 56, 254);
+    font-weight: bold;
+}
+
+#messages {
+    display: flex;
+    flex-direction: column;
+}
+
+#seller-table {
+    display: flex;
+    flex-direction: row;
+}
+
+#messages #users-list {
+    border-right: 1px solid rgb(170, 170, 170);
+}
+
+#user-messages-history {
+    margin: 0px 5px;
+}
